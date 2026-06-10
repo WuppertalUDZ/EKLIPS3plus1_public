@@ -1,4 +1,6 @@
 # EKLIPS3plus1 public page 🏙️ 🖥️
+Hierbei handelt es sich um den öffentlichen Teil des EKLIPS3plus1-Repositories, aus dem der Projektblog heraus erzeugt wird.
+
 ## *E*ffizient und *kli*maresilient *P*lanen mit *3 s*tädtischen digitalen Zwillingen in *1* Region
 
 Mit dem Verbundvorhaben EKLIPS3plus1- Effizient und klimaresilient Planen mit 3 städtischen digitalen Zwillingen in 1 Region stellen sich die Kooperationspartner der Herausforderung, dringend notwendige Klimafolgeanpassungen über die kommunale Bauleit- und Landschaftsplanung durch einen gemeinsamen Datenraum und Digitale Zwillinge zu beschleunigen.
