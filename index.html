@@ -602,20 +602,9 @@ body {
 
 <!-- ── TOPBAR ── -->
 <header class="topbar">
-  <div class="topbar-title"><strong style="color:var(--blue);font-weight:700">EKLIPS3plus1</strong> &ndash; Effizient und klimaresilient Planen mit <span>3 städtischen digitalen Zwillingen</span> in 1 Region</div>
+  <div class="topbar-title"><strong style="color:var(--blue);font-weight:700">EKLIPS3plus1</strong> &ndash; Effizient und klimaresilient Planen mit <span>3 städtischen digitalen Zwillingen</span> in 1 Region: <span>Ein Projektblog für die Öffentlichkeit</span></div>
 
-  <!-- BMFTR + FONA prominent -->
-  <div class="topbar-logos">
-    <img src="https://www.bmftr.bund.de/SiteGlobals/Frontend/Images/images/logo.svg?__blob=normal&v=7"
-         alt="Bundesministerium für Forschung, Technologie und Raumfahrt"
-         onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
-    <span class="logo-fallback" style="display:none">BMFTR</span>
-    <div class="lsep"></div>
-    <img src="https://www.fona.de/SiteGlobals/Frontend/Images/images/fona-logo.svg?__blob=normal"
-         alt="FONA – Forschung für Nachhaltigkeit"
-         onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
-    <span class="logo-fallback" style="display:none">FONA</span>
-  </div>
+ 
 </header>
 
 <!-- ── APP BODY ── -->
@@ -644,9 +633,9 @@ body {
       </div>
       <span>DigiTal<br>Zwilling</span>
     </a>
-    <a class="sidebar-item" href="https://github.com/cismet/carma" target="_blank" rel="noopener">
+    <a class="sidebar-item" href="https://github.com/WuppertalUDZ/EKLIPS3plus1_public" target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
-      <span>GitHub</span>
+      <span>EKLIPS<br>@ GitHub</span>
     </a>
   </aside>
 
@@ -916,6 +905,8 @@ body {
       <span>
         <a href="#impressum-modal" onclick="document.getElementById('impressum-modal').style.display='flex';return false;" style="color:var(--text-ter);text-decoration:none;cursor:pointer">Impressum</a>
         &nbsp;&middot;&nbsp;
+        <a href="#datenschutz-modal" onclick="document.getElementById('datenschutz-modal').style.display='flex';return false;" style="color:var(--text-ter);text-decoration:none;cursor:pointer">Datenschutz</a>
+        &nbsp;&middot;&nbsp;
         <a href="https://www.fona.de/de/massnahmen/foerdermassnahmen/planungsbeschleunigung-fuer-die-klimaanpassung.php" target="_blank" rel="noopener" style="color:var(--text-ter);text-decoration:none">FONA-F&ouml;rderma&szlig;nahme</a>
         &nbsp;&middot;&nbsp;
         <a href="https://github.com/cismet/carma" target="_blank" rel="noopener" style="color:var(--text-ter);text-decoration:none">carma @ GitHub</a>
@@ -1112,76 +1103,203 @@ function buildMediaCard(m, isPinned) {
 <!-- ── IMPRESSUM MODAL ── -->
 <div id="impressum-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9000;align-items:center;justify-content:center;padding:16px" onclick="if(event.target===this)this.style.display='none'">
   <div style="background:#fff;border-radius:8px;max-width:640px;width:100%;max-height:88vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,.18)">
-    <!-- Header -->
     <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #e4e7eb;position:sticky;top:0;background:#fff;z-index:1">
       <h2 style="font-size:16px;font-weight:600;color:#1f2937;margin:0">Impressum</h2>
       <button onclick="document.getElementById('impressum-modal').style.display='none'" style="background:none;border:none;cursor:pointer;color:#9ca3af;font-size:20px;line-height:1;padding:4px 8px">&times;</button>
     </div>
-    <!-- Inhalt -->
     <div style="padding:20px 24px;font-size:13px;color:#374151;line-height:1.7">
 
-      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">Verantwortlich f&uuml;r den Inhalt</h3>
+      <p style="margin:0 0 16px;color:#6b7280">Angaben gem&auml;&szlig; &sect;&nbsp;5 DDG</p>
+
+      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">Herausgeber</h3>
       <p style="margin:0 0 16px">
-       ### Diese Siete befindet sich im auf Aufbau###
-        Stadt Wuppertal<br>
-        Der Oberb&uuml;rgermeister<br>
+        Stadt Wuppertal, vertreten durch die Oberb&uuml;rgermeisterin<br>
+        Miriam Scherff<br>
         Johannes-Rau-Platz 1<br>
-        42275 Wuppertal<br>
-        Deutschland
+        42275 Wuppertal<br><br>
+        Telefon: +49 202 563-0<br>
+        Telefax: +49 202 563 8199<br>
+        E-Mail: <a href="mailto:stadt.verwaltung@stadt.wuppertal.de" style="color:#1677ff;text-decoration:none">stadt.verwaltung@stadt.wuppertal.de</a><br><br>
+        Die Stadt Wuppertal ist eine juristische Person (K&ouml;rperschaft) des &ouml;ffentlichen Rechts.
       </p>
 
       <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">Redaktionelle Verantwortung</h3>
       <p style="margin:0 0 16px">
-        Diese Projektwebseite wurde im Rahmen des Verbundvorhabens EKLIPS3+1 erstellt und redaktionell betreut von:<br><br>
+        Diese Projektwebseite wurde im Rahmen des Verbundvorhabens EKLIPS3plus1 erstellt und redaktionell betreut von:<br><br>
         <strong>Benjamin Bleske</strong><br>
         Stadt Wuppertal &ndash; Ressort f&uuml;r Vermessung, Katasteramt und Geodaten<br>
         E-Mail: <a href="mailto:benjamin.bleske@stadt.wuppertal.de" style="color:#1677ff;text-decoration:none">benjamin.bleske@stadt.wuppertal.de</a><br><br>
         Bei Fragen, Korrekturen oder Hinweisen zu Inhalten dieser Seite wenden Sie sich bitte direkt an die oben genannte Adresse.
       </p>
 
-      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">Projekttr&auml;ger</h3>
-      <p style="margin:0 0 16px">
-        DLR Projekttr&auml;ger<br>
-        Umwelt und Nachhaltigkeit<br>
-        Heinrich-Konen-Str. 1<br>
-        53227 Bonn
-      </p>
-
       <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">F&ouml;rderinformation</h3>
       <p style="margin:0 0 16px">
-        Das Verbundvorhaben EKLIPS3+1 wird gef&ouml;rdert durch das Bundesministerium f&uuml;r Forschung, Technologie und Raumfahrt (BMFTR) im Rahmen der Strategie &bdquo;Forschung f&uuml;r Nachhaltigkeit&ldquo; (FONA), F&ouml;rderrichtlinie &bdquo;Planungsbeschleunigung f&uuml;r die Klimaanpassung mit Urbanen Digitalen Zwillingen&ldquo;.
-      </p>
-
-      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">Konsortialpartner (Verbund)</h3>
-      <p style="margin:0 0 16px">
-        Stadt Wuppertal (Koordination) &middot; Stadt Solingen &middot; Stadt Remscheid &middot; Wupperverband &middot;
-        HafenCity Universit&auml;t Hamburg &middot; Technische Universit&auml;t Dortmund &middot;
-        Freie Universit&auml;t Berlin &middot; Universit&auml;t Potsdam &middot;
-        Deutsches Forschungszentrum f&uuml;r K&uuml;nstliche Intelligenz GmbH (DFKI) &middot; KISTERS AG
+        Das Verbundvorhaben EKLIPS3plus1 wird gef&ouml;rdert durch das Bundesministerium f&uuml;r Forschung, Technologie und Raumfahrt (BMFTR) im Rahmen der Strategie &bdquo;Forschung f&uuml;r Nachhaltigkeit&ldquo; (FONA), F&ouml;rderrichtlinie &bdquo;Planungsbeschleunigung f&uuml;r die Klimaanpassung mit Urbanen Digitalen Zwillingen&ldquo;.
       </p>
 
       <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">Technische Umsetzung</h3>
-      <p style="margin:0 0 16px">
+      <p style="margin:0 0 0">
         Diese Webseite wird statisch &uuml;ber
         <a href="https://pages.github.com" target="_blank" rel="noopener" style="color:#1677ff;text-decoration:none">GitHub Pages</a>
         bereitgestellt.
       </p>
-
-      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">Haftungsausschluss</h3>
-      <p style="margin:0 0 16px">
-        Die Inhalte dieser Webseite wurden mit gr&ouml;&szlig;tm&ouml;glicher Sorgfalt erstellt. F&uuml;r die Richtigkeit, Vollst&auml;ndigkeit und Aktualit&auml;t der Inhalte kann keine Gew&auml;hr &uuml;bernommen werden. Als Diensteanbieter sind wir gem&auml;&szlig; &sect;&nbsp;7 Abs.&nbsp;1 TMG f&uuml;r eigene Inhalte auf dieser Seite nach den allgemeinen Gesetzen verantwortlich. Nach &sect;&sect;&nbsp;8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen.
-      </p>
-
-      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">Links zu externen Webseiten</h3>
-      <p style="margin:0 0 0">
-        Diese Seite enth&auml;lt Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb k&ouml;nnen wir f&uuml;r diese fremden Inhalte auch keine Gew&auml;hr &uuml;bernehmen. F&uuml;r die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.
-      </p>
     </div>
-    <!-- Footer des Modals -->
     <div style="padding:12px 24px;border-top:1px solid #e4e7eb;display:flex;justify-content:flex-end">
       <button onclick="document.getElementById('impressum-modal').style.display='none'" style="background:#1677ff;color:#fff;border:none;border-radius:5px;padding:7px 18px;font-size:13px;font-weight:500;cursor:pointer">Schlie&szlig;en</button>
     </div>
   </div>
 </div>
+
+<!-- ── DATENSCHUTZ MODAL ── -->
+<div id="datenschutz-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:9000;align-items:center;justify-content:center;padding:16px" onclick="if(event.target===this)this.style.display='none'">
+  <div style="background:#fff;border-radius:8px;max-width:680px;width:100%;max-height:88vh;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,.18)">
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #e4e7eb;position:sticky;top:0;background:#fff;z-index:1">
+      <h2 style="font-size:16px;font-weight:600;color:#1f2937;margin:0">Datenschutzerkl&auml;rung DSGVO</h2>
+      <button onclick="document.getElementById('datenschutz-modal').style.display='none'" style="background:none;border:none;cursor:pointer;color:#9ca3af;font-size:20px;line-height:1;padding:4px 8px">&times;</button>
+    </div>
+    <div style="padding:20px 24px;font-size:13px;color:#374151;line-height:1.7">
+
+      <p style="margin:0 0 12px">Der Stadt Wuppertal ist der Schutz Ihrer personenbezogenen Daten ein besonderes Anliegen. Wir halten uns daher strikt an die geltenden datenschutzrechtlichen Bestimmungen. Ihre Daten werden von uns weder ver&ouml;ffentlicht, noch unberechtigt an Dritte weitergegeben.</p>
+      <p style="margin:0 0 16px">Im Folgenden erl&auml;utern wir, welche Daten w&auml;hrend Ihres Besuches auf unseren Webseiten erfasst und wie genau diese verwendet werden.</p>
+
+      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">1. Name und Anschrift des Verantwortlichen</h3>
+      <p style="margin:0 0 16px">
+        Der Verantwortliche im Sinne der Datenschutz-Grundverordnung und anderer nationaler Datenschutzgesetze der Mitgliedsstaaten sowie sonstiger datenschutzrechtlicher Bestimmungen ist die:<br><br>
+        Stadt Wuppertal, vertreten durch die Oberb&uuml;rgermeisterin<br>
+        Miriam Scherff<br>
+        Johannes-Rau-Platz 1<br>
+        42275 Wuppertal<br><br>
+        Telefon: +49 202 563 0<br>
+        Telefax: +49 202 563 8199<br>
+        E-Mail: <a href="mailto:internet@stadt.wuppertal.de" style="color:#1677ff;text-decoration:none">internet@stadt.wuppertal.de</a>
+      </p>
+
+      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">2. Datenschutzbeauftragter</h3>
+      <p style="margin:0 0 16px">
+        Beauftragter f&uuml;r Datenschutz bei der Stadt Wuppertal<br>
+        Johannes-Rau-Platz 1<br>
+        42275 Wuppertal<br>
+        E-Mail: <a href="mailto:datenschutz@stadt.wuppertal.de" style="color:#1677ff;text-decoration:none">datenschutz@stadt.wuppertal.de</a>
+      </p>
+
+      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">3. Umfang der Datenverarbeitung</h3>
+      <p style="margin:0 0 8px">Die Stadt Wuppertal erhebt oder verarbeitet bei der Bereitstellung dieser Website keinerlei personenbezogene Daten:</p>
+      <ul style="margin:0 0 16px;padding-left:20px">
+        <li>Das Logging der Webserver-Software ist deaktiviert.</li>
+        <li>Cookies werden keine gesetzt.</li>
+        <li>Eine Anmeldung oder Registrierung ist nicht m&ouml;glich.</li>
+      </ul>
+
+      <h3 style="font-size:13px;font-weight:600;color:#111827;margin:0 0 6px">4. Rechte der betroffenen Person</h3>
+      <p style="margin:0 0 12px">Obwohl keine personenbezogenen Daten von Ihnen verarbeitet werden, weisen wir Sie der Vollst&auml;ndigkeit halber und f&uuml;r den Fall einer abweichenden Rechtsauffassung auf die Betroffenenrechte i.S.d. DSGVO hin:</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.1. Auskunftsrecht</h4>
+      <p style="margin:0 0 8px">Sie k&ouml;nnen von dem Verantwortlichen eine Best&auml;tigung dar&uuml;ber verlangen, ob personenbezogene Daten, die Sie betreffen, von uns verarbeitet werden.</p>
+      <p style="margin:0 0 8px">Liegt eine solche Verarbeitung vor, k&ouml;nnen Sie von dem Verantwortlichen &uuml;ber folgende Informationen Auskunft verlangen:</p>
+      <ol style="margin:0 0 12px;padding-left:20px">
+        <li>die Zwecke, zu denen die personenbezogenen Daten verarbeitet werden;</li>
+        <li>die Kategorien von personenbezogenen Daten, welche verarbeitet werden;</li>
+        <li>die Empf&auml;nger bzw. die Kategorien von Empf&auml;ngern, gegen&uuml;ber denen die Sie betreffenden personenbezogenen Daten offengelegt wurden oder noch offengelegt werden;</li>
+        <li>die geplante Dauer der Speicherung der Sie betreffenden personenbezogenen Daten oder, falls konkrete Angaben hierzu nicht m&ouml;glich sind, Kriterien f&uuml;r die Festlegung der Speicherdauer;</li>
+        <li>das Bestehen eines Rechts auf Berichtigung oder L&ouml;schung der Sie betreffenden personenbezogenen Daten, eines Rechts auf Einschr&auml;nkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung;</li>
+        <li>das Bestehen eines Beschwerderechts bei einer Aufsichtsbeh&ouml;rde;</li>
+        <li>alle verf&uuml;gbaren Informationen &uuml;ber die Herkunft der Daten, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden;</li>
+        <li>das Bestehen einer automatisierten Entscheidungsfindung einschlie&szlig;lich Profiling gem&auml;&szlig; Art. 22 Abs. 1 und 4 DSGVO und &ndash; zumindest in diesen F&auml;llen &ndash; aussagekr&auml;ftige Informationen &uuml;ber die involvierte Logik sowie die Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung f&uuml;r die betroffene Person.</li>
+      </ol>
+      <p style="margin:0 0 12px">Ihnen steht das Recht zu, Auskunft dar&uuml;ber zu verlangen, ob die Sie betreffenden personenbezogenen Daten in ein Drittland oder an eine internationale Organisation &uuml;bermittelt werden. In diesem Zusammenhang k&ouml;nnen Sie verlangen, &uuml;ber die geeigneten Garantien gem. Art. 46 DSGVO im Zusammenhang mit der &Uuml;bermittlung unterrichtet zu werden.</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.2. Recht auf Berichtigung</h4>
+      <p style="margin:0 0 12px">Sie haben ein Recht auf Berichtigung und/oder Vervollst&auml;ndigung gegen&uuml;ber dem Verantwortlichen, sofern die verarbeiteten personenbezogenen Daten, die Sie betreffen, unrichtig oder unvollst&auml;ndig sind. Der Verantwortliche hat die Berichtigung unverz&uuml;glich vorzunehmen.</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.3. Recht auf Einschr&auml;nkung der Verarbeitung</h4>
+      <p style="margin:0 0 8px">Unter den folgenden Voraussetzungen k&ouml;nnen Sie die Einschr&auml;nkung der Verarbeitung der Sie betreffenden personenbezogenen Daten verlangen:</p>
+      <ol style="margin:0 0 8px;padding-left:20px">
+        <li>wenn Sie die Richtigkeit der Sie betreffenden personenbezogenen f&uuml;r eine Dauer bestreiten, die es dem Verantwortlichen erm&ouml;glicht, die Richtigkeit der personenbezogenen Daten zu &uuml;berpr&uuml;fen;</li>
+        <li>die Verarbeitung unrechtm&auml;&szlig;ig ist und Sie die L&ouml;schung der personenbezogenen Daten ablehnen und stattdessen die Einschr&auml;nkung der Nutzung der personenbezogenen Daten verlangen;</li>
+        <li>der Verantwortliche die personenbezogenen Daten f&uuml;r die Zwecke der Verarbeitung nicht l&auml;nger ben&ouml;tigt, Sie diese jedoch zur Geltendmachung, Aus&uuml;bung oder Verteidigung von Rechtsanspr&uuml;chen ben&ouml;tigen, oder</li>
+        <li>wenn Sie Widerspruch gegen die Verarbeitung gem&auml;&szlig; Art. 21 Abs. 1 DSGVO eingelegt haben und noch nicht feststeht, ob die berechtigten Gr&uuml;nde des Verantwortlichen gegen&uuml;ber Ihren Gr&uuml;nden &uuml;berwiegen.</li>
+      </ol>
+      <p style="margin:0 0 8px">Wurde die Einschr&auml;nkung der Verarbeitung der Sie betreffenden personenbezogenen Daten eingeschr&auml;nkt, d&uuml;rfen diese Daten &ndash; von ihrer Speicherung abgesehen &ndash; nur mit Ihrer Einwilligung oder zur Geltendmachung, Aus&uuml;bung oder Verteidigung von Rechtsanspr&uuml;chen oder zum Schutz der Rechte einer anderen nat&uuml;rlichen oder juristischen Person oder aus Gr&uuml;nden eines wichtigen &ouml;ffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet werden.</p>
+      <p style="margin:0 0 12px">Wurde die Einschr&auml;nkung der Verarbeitung nach den o.g. Voraussetzungen eingeschr&auml;nkt, werden Sie von dem Verantwortlichen unterrichtet bevor die Einschr&auml;nkung aufgehoben wird.</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.4. Recht auf L&ouml;schung</h4>
+      <h5 style="font-size:13px;font-weight:600;color:#111827;margin:6px 0 4px">4.4.1. L&ouml;schungspflicht</h5>
+      <p style="margin:0 0 8px">Sie k&ouml;nnen von dem Verantwortlichen verlangen, dass die Sie betreffenden personenbezogenen Daten unverz&uuml;glich gel&ouml;scht werden, und der Verantwortliche ist verpflichtet, diese Daten unverz&uuml;glich zu l&ouml;schen, sofern einer der folgenden Gr&uuml;nde zutrifft:</p>
+      <ol style="margin:0 0 8px;padding-left:20px">
+        <li>Die Sie betreffenden personenbezogenen Daten sind f&uuml;r die Zwecke, f&uuml;r die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig.</li>
+        <li>Sie widerrufen Ihre Einwilligung, auf die sich die Verarbeitung gem. Art. 6 Abs. 1 lit. a oder Art. 9 Abs. 2 lit. a DSGVO st&uuml;tzte, und es fehlt an einer anderweitigen Rechtsgrundlage f&uuml;r die Verarbeitung.</li>
+        <li>Sie legen gem. Art. 21 Abs. 1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine vorrangigen berechtigten Gr&uuml;nde f&uuml;r die Verarbeitung vor, oder Sie legen gem. Art. 21 Abs. 2 DSGVO Widerspruch gegen die Verarbeitung ein.</li>
+        <li>Die Sie betreffenden personenbezogenen Daten wurden unrechtm&auml;&szlig;ig verarbeitet.</li>
+        <li>Die Sie betreffenden personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft gem&auml;&szlig; Art. 8 Abs. 1 DSGVO erhoben.</li>
+      </ol>
+
+      <h5 style="font-size:13px;font-weight:600;color:#111827;margin:10px 0 4px">4.4.2. Information an Dritte</h5>
+      <p style="margin:0 0 8px">Hat der Verantwortliche die Sie betreffenden personenbezogenen Daten &ouml;ffentlich gemacht und ist er gem. Art. 17 Abs. 1 DSGVO zu deren L&ouml;schung verpflichtet, so trifft er unter Ber&uuml;cksichtigung der verf&uuml;gbaren Technologie und der Implementierungskosten angemessene Ma&szlig;nahmen, auch technischer Art, um f&uuml;r die Datenverarbeitung Verantwortliche, die die personenbezogenen Daten verarbeiten, dar&uuml;ber zu informieren, dass Sie als betroffene Person von ihnen die L&ouml;schung aller Links zu diesen personenbezogenen Daten oder von Kopien oder Replikationen dieser personenbezogenen Daten verlangt haben.</p>
+
+      <h5 style="font-size:13px;font-weight:600;color:#111827;margin:10px 0 4px">4.4.3. Ausnahmen</h5>
+      <p style="margin:0 0 8px">Das Recht auf L&ouml;schung besteht nicht, soweit die Verarbeitung erforderlich ist</p>
+      <ol style="margin:0 0 12px;padding-left:20px">
+        <li>zur Aus&uuml;bung des Rechts auf freie Meinungs&auml;u&szlig;erung und Information;</li>
+        <li>zur Erf&uuml;llung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder der Mitgliedstaaten, dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung einer Aufgabe, die im &ouml;ffentlichen Interesse liegt oder in Aus&uuml;bung &ouml;ffentlicher Gewalt erfolgt, die dem Verantwortlichen &uuml;bertragen wurde;</li>
+        <li>aus Gr&uuml;nden des &ouml;ffentlichen Interesses im Bereich der &ouml;ffentlichen Gesundheit gem&auml;&szlig; Art. 9 Abs. 2 lit. h und i sowie Art. 9 Abs. 3 DSGVO;</li>
+        <li>f&uuml;r im &ouml;ffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder f&uuml;r statistische Zwecke gem. Art. 89 Abs. 1 DSGVO, soweit das unter Abschnitt a) genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung unm&ouml;glich macht oder ernsthaft beeintr&auml;chtigt, oder</li>
+        <li>zur Geltendmachung, Aus&uuml;bung oder Verteidigung von Rechtsanspr&uuml;chen.</li>
+      </ol>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.5. Recht auf Unterrichtung</h4>
+      <p style="margin:0 0 8px">Haben Sie das Recht auf Berichtigung, L&ouml;schung oder Einschr&auml;nkung der Verarbeitung gegen&uuml;ber dem Verantwortlichen geltend gemacht, ist dieser verpflichtet, allen Empf&auml;ngern, denen die Sie betreffenden personenbezogenen Daten offengelegt wurden, diese Berichtigung oder L&ouml;schung der Daten oder Einschr&auml;nkung der Verarbeitung mitzuteilen, es sei denn, dies erweist sich als unm&ouml;glich oder ist mit einem unverh&auml;ltnism&auml;&szlig;igen Aufwand verbunden.</p>
+      <p style="margin:0 0 12px">Ihnen steht gegen&uuml;ber dem Verantwortlichen das Recht zu, &uuml;ber diese Empf&auml;nger unterrichtet zu werden.</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.6. Recht auf Daten&uuml;bertragbarkeit</h4>
+      <p style="margin:0 0 8px">Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie dem Verantwortlichen bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten. Au&szlig;erdem haben Sie das Recht diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen, dem die personenbezogenen Daten bereitgestellt wurden, zu &uuml;bermitteln, sofern</p>
+      <ol style="margin:0 0 8px;padding-left:20px">
+        <li>die Verarbeitung auf einer Einwilligung gem. Art. 6 Abs. 1 lit. a DSGVO oder Art. 9 Abs. 2 lit. a DSGVO oder auf einem Vertrag gem. Art. 6 Abs. 1 lit. b DSGVO beruht und</li>
+        <li>die Verarbeitung mithilfe automatisierter Verfahren erfolgt.</li>
+      </ol>
+      <p style="margin:0 0 8px">In Aus&uuml;bung dieses Rechts haben Sie ferner das Recht, zu erwirken, dass die Sie betreffenden personenbezogenen Daten direkt von einem Verantwortlichen einem anderen Verantwortlichen &uuml;bermittelt werden, soweit dies technisch machbar ist. Freiheiten und Rechte anderer Personen d&uuml;rfen hierdurch nicht beeintr&auml;chtigt werden.</p>
+      <p style="margin:0 0 12px">Das Recht auf Daten&uuml;bertragbarkeit gilt nicht f&uuml;r eine Verarbeitung personenbezogener Daten, die f&uuml;r die Wahrnehmung einer Aufgabe erforderlich ist, die im &ouml;ffentlichen Interesse liegt oder in Aus&uuml;bung &ouml;ffentlicher Gewalt erfolgt, die dem Verantwortlichen &uuml;bertragen wurde.</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.7. Widerspruchsrecht</h4>
+      <p style="margin:0 0 8px">Sie haben das Recht, aus Gr&uuml;nden, die sich aus ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten, die aufgrund von Art. 6 Abs. 1 lit. e oder f DSGVO erfolgt, Widerspruch einzulegen; dies gilt auch f&uuml;r ein auf diese Bestimmungen gest&uuml;tztes Profiling.</p>
+      <p style="margin:0 0 8px">Der Verantwortliche verarbeitet die Sie betreffenden personenbezogenen Daten nicht mehr, es sei denn, er kann zwingende schutzw&uuml;rdige Gr&uuml;nde f&uuml;r die Verarbeitung nachweisen, die Ihre Interessen, Rechte und Freiheiten &uuml;berwiegen, oder die Verarbeitung dient der Geltendmachung, Aus&uuml;bung oder Verteidigung von Rechtsanspr&uuml;chen.</p>
+      <p style="margin:0 0 8px">Werden die Sie betreffenden personenbezogenen Daten verarbeitet, um Direktwerbung zu betreiben, haben Sie das Recht, jederzeit Widerspruch gegen die Verarbeitung der Sie betreffenden personenbezogenen Daten zum Zwecke derartiger Werbung einzulegen; dies gilt auch f&uuml;r das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.</p>
+      <p style="margin:0 0 8px">Widersprechen Sie der Verarbeitung f&uuml;r Zwecke der Direktwerbung, so werden die Sie betreffenden personenbezogenen Daten nicht mehr f&uuml;r diese Zwecke verarbeitet.</p>
+      <p style="margin:0 0 12px">Sie haben die M&ouml;glichkeit, im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft &ndash; ungeachtet der Richtlinie 2002/58/EG &ndash; Ihr Widerspruchsrecht mittels automatisierter Verfahren auszu&uuml;ben, bei denen technische Spezifikationen verwendet werden.</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.8. Recht auf Widerruf der datenschutzrechtlichen Einwilligungserkl&auml;rung</h4>
+      <p style="margin:0 0 12px">Sie haben das Recht, Ihre datenschutzrechtliche Einwilligungserkl&auml;rung jederzeit zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtm&auml;&szlig;igkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht ber&uuml;hrt.</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.9. Automatisierte Entscheidung im Einzelfall einschlie&szlig;lich Profiling</h4>
+      <p style="margin:0 0 8px">Sie haben das Recht, nicht einer ausschlie&szlig;lich auf einer automatisierten Verarbeitung &ndash; einschlie&szlig;lich Profiling &ndash; beruhenden Entscheidung unterworfen zu werden, die Ihnen gegen&uuml;ber rechtliche Wirkung entfaltet oder Sie in &auml;hnlicher Weise erheblich beeintr&auml;chtigt. Dies gilt nicht, wenn die Entscheidung</p>
+      <ol style="margin:0 0 8px;padding-left:20px">
+        <li>f&uuml;r den Abschluss oder die Erf&uuml;llung eines Vertrags zwischen Ihnen und dem Verantwortlichen erforderlich ist,</li>
+        <li>aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten, denen der Verantwortliche unterliegt, zul&auml;ssig ist und diese Rechtsvorschriften angemessene Ma&szlig;nahmen zur Wahrung Ihrer Rechte und Freiheiten sowie Ihrer berechtigten Interessen enthalten oder</li>
+        <li>mit Ihrer ausdr&uuml;cklichen Einwilligung erfolgt.</li>
+      </ol>
+      <p style="margin:0 0 8px">Allerdings d&uuml;rfen diese Entscheidungen nicht auf besonderen Kategorien personenbezogener Daten nach Art. 9 Abs. 1 DSGVO beruhen, sofern nicht Art. 9 Abs. 2 lit. a oder g gilt und angemessene Ma&szlig;nahmen zum Schutz der Rechte und Freiheiten sowie Ihrer berechtigten Interessen getroffen wurden.</p>
+      <p style="margin:0 0 12px">Hinsichtlich der in (1) und (3) genannten F&auml;lle trifft der Verantwortliche angemessene Ma&szlig;nahmen, um die Rechte und Freiheiten sowie Ihre berechtigten Interessen zu wahren, wozu mindestens das Recht auf Erwirkung des Eingreifens einer Person seitens des Verantwortlichen, auf Darlegung des eigenen Standpunkts und auf Anfechtung der Entscheidung geh&ouml;rt.</p>
+
+      <h4 style="font-size:13px;font-weight:600;color:#111827;margin:12px 0 4px">4.10. Recht auf Beschwerde bei einer Aufsichtsbeh&ouml;rde</h4>
+      <p style="margin:0 0 8px">Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbeh&ouml;rde, insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, ihres Arbeitsplatzes oder des Orts des mutma&szlig;lichen Versto&szlig;es, zu, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO versto&szlig;t.</p>
+      <p style="margin:0 0 16px">Die Aufsichtsbeh&ouml;rde, bei der die Beschwerde eingereicht wurde, unterrichtet den Beschwerdef&uuml;hrer &uuml;ber den Stand und die Ergebnisse der Beschwerde einschlie&szlig;lich der M&ouml;glichkeit eines gerichtlichen Rechtsbehelfs nach Art. 78 DSGVO.</p>
+
+      <p style="margin:0 0 16px">
+        <strong>Zust&auml;ndige Aufsichtsbeh&ouml;rde:</strong><br>
+        Landesbeauftragte f&uuml;r Datenschutz und Informationsfreiheit Nordrhein-Westfalen<br>
+        Postfach 200444<br>
+        40102 D&uuml;sseldorf<br>
+        Telefon: 0211/ 38424-0<br>
+        E-Mail: <a href="mailto:poststelle@ldi.nrw.de" style="color:#1677ff;text-decoration:none">poststelle@ldi.nrw.de</a><br>
+        Website: <a href="https://www.ldi.nrw.de" target="_blank" rel="noopener" style="color:#1677ff;text-decoration:none">www.ldi.nrw.de</a>
+      </p>
+
+      <p style="margin:0;color:#9ca3af;font-size:12px;text-transform:uppercase">Stadt Wuppertal / Vermessung, Katasteramt und Geodaten</p>
+    </div>
+    <div style="padding:12px 24px;border-top:1px solid #e4e7eb;display:flex;justify-content:flex-end">
+      <button onclick="document.getElementById('datenschutz-modal').style.display='none'" style="background:#1677ff;color:#fff;border:none;border-radius:5px;padding:7px 18px;font-size:13px;font-weight:500;cursor:pointer">Schlie&szlig;en</button>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
