@@ -136,4 +136,4 @@ var MEDIENSPEICHER = [
   }
 ]; // <- nicht loeschen
 
-var ANGEPINNT_IDS = [1, 4]; // IDs der angepinnten Beitraege
+var ANGEPINNT_IDS = [1]; // IDs der angepinnten Beitraege
